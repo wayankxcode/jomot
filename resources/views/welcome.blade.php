@@ -25,7 +25,7 @@
             @if (Route::has('login'))
                 <div class="fixed top-0 right-0 hidden px-6 py-4 sm:block">
                     @auth
-                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
+                        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
                     @else
                         <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
 
@@ -44,9 +44,9 @@
                         </g>
                     </svg> --}}
                 </div>
-                <h1>Homepage</h1>
-                <a href="{{ url('/home') }}">Home</a> |
-                <a href="{{ url('/contact') }}">Kontak</a> |
+                <h1>Dashboardpage</h1>
+                <a href="{{ url('/dashboard') }}">Dashboard</a> |
+                <a href="{{ URL::to('/contact') }}">Kontak</a> |
                 <a href="{{ url('/about') }}">About</a> |
 
                 <div class="mt-8 overflow-hidden bg-white shadow dark:bg-gray-800 sm:rounded-lg">
