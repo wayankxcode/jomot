@@ -44,10 +44,6 @@
                         </g>
                     </svg> --}}
                 </div>
-                <h1>Homepage</h1>
-                <a href="{{ url('/home') }}">Home</a> |
-                <a href="{{ url('/contact') }}">Kontak</a> |
-                <a href="{{ url('/about') }}">About</a> |
 
                 <div class="mt-8 overflow-hidden bg-white shadow dark:bg-gray-800 sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
